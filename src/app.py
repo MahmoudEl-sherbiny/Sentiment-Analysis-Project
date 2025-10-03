@@ -32,8 +32,6 @@ except OSError:
 # Define stopwords list globally
 stopwords_list = set(stopwords.words("english"))
 
-import re
-import emoji
 
 def clean_tweet(text, demojize=True, hashtag_handling='remove_symbol', remove_short_tokens=True):
     if demojize:
