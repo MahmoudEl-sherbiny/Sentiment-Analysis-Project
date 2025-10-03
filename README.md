@@ -36,8 +36,7 @@ A simple **Sentiment Analysis** application that loads a trained model and expos
 **1. Clone the repo**
 
 ```bash
-git clone https://github.com/your-username/sentiment-analysis.git
-cd sentiment-analysis
+git clone git@github.com:MahmoudEl-sherbiny/Sentiment-Analysis-Project.git
 ```
 
 **2. Create and activate a virtual environment**
