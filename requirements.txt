@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+nltk
+spacy
+emoji
+scikit-learn
+gensim
+flask
+joblib
+tqdm
+jupyter
+wordcloud
+
