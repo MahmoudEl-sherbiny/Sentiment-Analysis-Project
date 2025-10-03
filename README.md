@@ -109,7 +109,7 @@ python src/test_request.py
 curl -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d '{"text": "I love this product!"}'
 
 # Example expected response (JSON)
-# { "sentiment": "positive", "score": 0.93 }
+# { "sentiment": "positive"}
 ```
 
 **Sample JSON request**
@@ -124,8 +124,7 @@ curl -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json"
 
 ```json
 {
-  "sentiment": "positive",
-  "probability": 0.92
+  "sentiment": "positive"
 }
 ```
 
